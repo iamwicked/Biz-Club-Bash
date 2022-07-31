@@ -1,0 +1,36 @@
+.navbar{
+    display: flex;
+    height: 10vh;
+    background: #000;
+    align-items: center;
+    padding: 2vh 3vw;
+
+}
+.nav_left{
+    width: 30%;
+    background: #F6F6F6;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    align-items: center;
+}
+.nav_right{
+    width: 70%;
+    background: green;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 0 3%;
+}
+.nav_links{
+    width: 75%;
+}
+.nav_links ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav_links ul li{
+list-style: none;
+}
