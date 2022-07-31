@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 .navbar{
     display: flex;
     height: 10vh;
-    background: #000;
+    /* background: #000; */
+    background: #F6F6F6;
     align-items: center;
-    padding: 2vh 3vw;
+    padding: 2vh 0vw 2vh 3vw;
 
 }
 .nav_left{
     width: 30%;
-    background: #F6F6F6;
     height: 10vh;
     display: flex;
     justify-content: space-around;
@@ -17,20 +18,42 @@
 }
 .nav_right{
     width: 70%;
-    background: green;
+    /* background: green; */
     height: 10vh;
     display: flex;
     align-items: center;
-    padding: 0 3%;
+    padding: 0 1% 0 3%;
+    /* background: #F6F6F6; */
 }
 .nav_links{
-    width: 75%;
+    width: 70%;
+    font-size: 1em;
+    font-weight: bold;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+
 }
 .nav_links ul{
     display: flex;
     justify-content: space-between;
+    /* padding-bottom: 3vh; */
     
 }
 .nav_links ul li{
-list-style: none;
+    list-style: none;
+    height: 100%;
+    margin-bottom: 0%;
+    padding-bottom: 3vh;
+    cursor: pointer;
+}
+.nav_links ul li:hover{
+    color: #DA373D;
+    border-bottom: 3px #DA373D solid;
+}
+.nav_user{
+margin-left: auto;
+display: flex;
+align-items: center;
+width: 17%;
+justify-content: space-between;
 }

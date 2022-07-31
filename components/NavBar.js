@@ -2,6 +2,9 @@ import React from 'react'
 import ArrowDropDownRoundedIcon from '@mui/icons-material/ArrowDropDownRounded';
 import styles from "../styles/NavBar.module.css"
 import Link from 'next/link';
+import { Avatar } from '@mui/material';
+import NotificationsIcon from '@mui/icons-material/Notifications';
+import { BiBell } from "react-icons/bi";
 const NavBar = () => {
   return (
     <nav className={styles.navbar}>
@@ -52,7 +55,17 @@ logo
        </Link></li>
     </ul>
 </div>
-div.styles.
+<div className={styles.nav_user}>
+    <BiBell 
+    style={{
+        fontSize:"1.3rem"
+    }}
+    />
+    <span>Hi <span style={{
+        fontWeight:"bold"
+    }}>user</span></span>
+<Avatar />
+</div>
         </div>
 
     </nav>
