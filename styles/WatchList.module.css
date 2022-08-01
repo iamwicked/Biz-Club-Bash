@@ -1,0 +1,43 @@
+.main{
+    background: red;
+    width: 30vw;
+}
+.stock_dets{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    color: #5FA325;
+    font-weight: bold;
+    padding: 0.3rem 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+
+}
+.main_child{
+    background: #FFFFFF;
+}
+.btns{
+    background: #FFFFFF;
+    padding: 0.6rem;
+    padding-left: 50%;
+    border: 1px rgb(77, 73, 73) solid;
+    border-top: none;
+    display: none;
+    transform: translateY(-100%);
+    transition: all ease-in-out 2s;
+}
+.btns button{
+    /* padding: 0.3rem 0.5rem; */
+    width: 63px;
+    height: 32px;
+    font-size: 1em;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#active{
+    transform: translateY(0%);
+    display: block;
+}

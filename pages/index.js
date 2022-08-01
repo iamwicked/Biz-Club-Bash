@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import NavBar from '../components/NavBar'
+import WatchList from '../components/WatchList'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -14,6 +15,11 @@ export default function Home() {
       <main>
         <section className={styles.header}>
           <NavBar />
+        </section>
+        <section className={styles.main}>
+      <div className={styles.watch}>
+     <WatchList />
+      </div>
         </section>
       </main>
     </div>
