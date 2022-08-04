@@ -1,6 +1,23 @@
 .main{
-    background: red;
+    /* background: red; */
     width: 30vw;
+    border:2px solid rgb(228, 141, 141,0.36);
+    border-radius: 0.4rem;
+    height: 100vh;
+}
+.children{
+    height: 89%;
+    overflow-y: scroll;
+}
+.children::-webkit-scrollbar{
+    display: none;
+    background: transparent;
+}
+.children::-webkit-scrollbar-track{
+    display: none;
+}
+.children::-webkit-scrollbar-thumb{
+    display: none;
 }
 .stock_dets{
     display: flex;
@@ -9,11 +26,15 @@
     color: #5FA325;
     font-weight: bold;
     padding: 0.3rem 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.336);
+    /* border: 1px solid rgba(0, 0, 0, 0.336); */
 
 }
 .main_child{
     background: #FFFFFF;
+    border: none;
+    outline: none;
+    border-bottom: 0.3px rgb(0, 0, 0,0.5) solid;
+    /* border-top: 0.3px black solid; */
 }
 .btns{
     background: #FFFFFF;
@@ -36,6 +57,14 @@
     color: white;
     border: none;
     cursor: pointer;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: 1px solid rgb(228, 141, 141,0.36);
+    padding: 1vh 0;
 }
 #active{
     transform: translateY(0%);

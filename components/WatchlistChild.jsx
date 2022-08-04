@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import NavigationRoundedIcon from '@mui/icons-material/NavigationRounded';
 import styles from "../styles/WatchList.module.css"
 const WatchlistChild = () => {
     const [active, setActive] = useState(false)
@@ -10,7 +11,7 @@ const WatchlistChild = () => {
         </div>
         <div className={styles.right}>
         <span>330.30</span> <br />
-        <span>4.25 (1.30%) <span>Arrow</span></span>
+        <span>4.25 (1.30%) <span><NavigationRoundedIcon /></span></span>
         </div>
         </div>
         <div className={styles.btns} id={active ? styles.active : ""}>
