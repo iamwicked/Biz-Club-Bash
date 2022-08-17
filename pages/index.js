@@ -3,6 +3,7 @@ import Image from 'next/image'
 import NavBar from '../components/NavBar'
 import WatchList from '../components/WatchList'
 import styles from '../styles/Home.module.css'
+import Positions from '../components/OpenPositions'
 
 export default function Home() {
   return (
@@ -19,6 +20,10 @@ export default function Home() {
         <section className={styles.main}>
       <div className={styles.watch}>
      <WatchList />
+      </div>
+
+      <div>
+        <Positions />
       </div>
         </section>
       </main>
